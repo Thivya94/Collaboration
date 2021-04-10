@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-10T20:24:12 IST" name="Suite" finished-at="2021-04-10T20:24:28 IST" duration-ms="16524">
+    <groups>
+    </groups>
+    <test started-at="2021-04-10T20:24:12 IST" name="logintestWithChrome" finished-at="2021-04-10T20:24:20 IST" duration-ms="8175">
+      <class name="com.halligan.test.FirstTest">
+        <test-method is-config="true" signature="Initialize(java.lang.String)[pri:0, instance:com.halligan.test.FirstTest@3059cbc]" started-at="2021-04-10T20:24:12 IST" name="Initialize" finished-at="2021-04-10T20:24:18 IST" duration-ms="6109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method signature="chrome()[pri:0, instance:com.halligan.test.FirstTest@3059cbc]" started-at="2021-04-10T20:24:18 IST" name="chrome" finished-at="2021-04-10T20:24:19 IST" duration-ms="939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chrome -->
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:com.halligan.test.FirstTest@3059cbc]" started-at="2021-04-10T20:24:19 IST" name="Terminate" finished-at="2021-04-10T20:24:20 IST" duration-ms="1082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Terminate -->
+      </class> <!-- com.halligan.test.FirstTest -->
+    </test> <!-- logintestWithChrome -->
+    <test started-at="2021-04-10T20:24:20 IST" name="logintestWithFirfox" finished-at="2021-04-10T20:24:28 IST" duration-ms="8332">
+      <class name="com.halligan.test.SecondTest">
+        <test-method is-config="true" signature="Initialize(java.lang.String)[pri:0, instance:com.halligan.test.SecondTest@194bcebf]" started-at="2021-04-10T20:24:20 IST" name="Initialize" finished-at="2021-04-10T20:24:26 IST" duration-ms="6588" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method signature="Firefox()[pri:0, instance:com.halligan.test.SecondTest@194bcebf]" started-at="2021-04-10T20:24:26 IST" name="Firefox" finished-at="2021-04-10T20:24:27 IST" duration-ms="978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Firefox -->
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:com.halligan.test.SecondTest@194bcebf]" started-at="2021-04-10T20:24:27 IST" name="Terminate" finished-at="2021-04-10T20:24:28 IST" duration-ms="763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Terminate -->
+      </class> <!-- com.halligan.test.SecondTest -->
+    </test> <!-- logintestWithFirfox -->
+  </suite> <!-- Suite -->
+</testng-results>

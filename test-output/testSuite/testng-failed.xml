@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [testSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="methods" name="new(failed)">
+    <classes>
+      <class name="com.halligan.test.Parallel">
+        <methods>
+          <include name="Termination"/>
+          <include name="Aone"/>
+          <include name="Initialize"/>
+          <include name="BThree"/>
+        </methods>
+      </class> <!-- com.halligan.test.Parallel -->
+    </classes>
+  </test> <!-- new(failed) -->
+</suite> <!-- Failed suite [testSuite] -->
