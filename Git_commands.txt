@@ -1,0 +1,50 @@
+1.git config --global user.name "Thivya94"
+
+2.go to project folder and type this cmd in repository
+git init
+
+3.staging::
+git add *
+
+4.Checking status
+git status
+
+5.To commit
+git commit -m "commitnew"
+
+6.To add remote repo
+git remote add origin https://github.com/Thivya94/testingRepo.git
+
+7.To push
+git push origin master
+Enter username as "Thivya94"
+Enter password as "3d8bee024b6339065726ecc0ebfc4a0282cfac5d"
+
+8.To clone
+git clone https://github.com/Thivya94/testingRepo.git
+
+9.update some change from another workspace
+go to project folder and type this cmd in repository
+git add *
+git status
+
+10.To pull
+git pull origin master
+
+11.To add new branch
+git checkout -b develop
+
+12.To check our active branch
+git branch
+
+13.Pushing to new branch
+git push origin develop
+
+14.switch to new branch
+git checkout develop
+
+15.To merge branch
+git merge develop
+
+16.To delete branch
+git branch -d Cucumber
